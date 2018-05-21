@@ -37,6 +37,12 @@ public class Cercle {
 
 	  }
 
+//tostring
+	 public String toString() {
+	    String tronk = "X: " + this.x + " Y: " + this.y;
+	    return tronk;
+	 }
+
 //getters and setters
 	 public float getX() {
 		return x;
@@ -55,10 +61,7 @@ public class Cercle {
 	}
 
 
-	 public String toString() {
-	    String tronk = "X: " + this.x + " Y: " + this.y;
-	    return tronk;
-	 }
+
 
 public static void main(String[] args) {
 		Cercle circulo1 = new Cercle(12,44);	
